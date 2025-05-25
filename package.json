@@ -2,10 +2,12 @@
   "name": "@next-bootstrap/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve next-bootstrap"
+  },
   "private": true,
   "dependencies": {
-    "next": "~15.2.4",
+    "next": "^15.3.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-is": "19.0.0",
@@ -21,6 +23,7 @@
     "@nx/jest": "21.1.2",
     "@nx/js": "21.1.2",
     "@nx/next": "21.1.2",
+    "@nx/react": "^21.1.2",
     "@nx/workspace": "21.1.2",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.6.0",
@@ -35,6 +38,8 @@
     "@types/react-dom": "19.0.0",
     "@types/react-is": "19.0.0",
     "@types/styled-components": "5.1.26",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
     "babel-jest": "^29.7.0",
     "babel-plugin-styled-components": "1.10.7",
     "eslint": "^9.8.0",
@@ -56,5 +61,6 @@
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "packageManager": "yarn@4.2.2"
 }
