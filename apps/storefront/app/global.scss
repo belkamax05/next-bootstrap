@@ -1,0 +1,9 @@
+html,
+body {
+  height: 100%; /* Make sure the body takes the full height of the viewport */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}

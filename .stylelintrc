@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-scss", "stylelint-config-recommended"],
+  "ignoreFiles": "**/*.{vue, html, js, jsx}",
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true
+  }
+}

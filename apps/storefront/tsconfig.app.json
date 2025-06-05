@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "**/test-utils/**",
+    "**/__mocks__/**",
+    "**/__stories__/**",
+    "**/*.spec.*",
+    "**/*.spy.*",
+    "**/*.stories.*",
+    "../../libs/storybook/**",
+    "../../libs/constants/**/mocks/**",
+    "../../libs/**/test-utils/*",
+    "../../libs/**/__mocks__/**",
+    "../../libs/**/__stories__/**",
+    "../../libs/**/*.spec.*",
+    "../../libs/**/*.spy.*",
+    "../../libs/**/*.stories.*"
+  ]
+}

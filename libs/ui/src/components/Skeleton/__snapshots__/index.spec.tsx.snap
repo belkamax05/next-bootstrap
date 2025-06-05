@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="css-11t9lrj-Skeleton-container"
+      data-testid="skeleton"
+    >
+      <span
+        class="css-jjbo1d-Skeleton-line"
+        data-testid="skeletonElement"
+        id="skeleton_test_0"
+      >
+        ‌
+      </span>
+    </div>
+  </div>
+</body>
+`;

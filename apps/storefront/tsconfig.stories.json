@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "composite": true
+  },
+  "exclude": [
+    "next.config.ts",
+    "jest.*",
+    "**/*.spec.*",
+    "**/*.spy.*",
+    "**/test-utils/*",
+    "../../libs/**/*.spec.*",
+    "../../libs/**/*.spy.*"
+  ]
+}

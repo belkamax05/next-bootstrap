@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`persistQueryKeysMap should match snapshot 1`] = `
+Object {
+  "app.auth": true,
+  "basket.state": true,
+  "pages.pdp.last": true,
+  "pages.pdp.storeLocator.searchTerm": true,
+  "pages.plp.last": true,
+  "productConfig.state": true,
+  "recentlyViewed.items": true,
+  "state.loginOrigin": true,
+  "stores.brandFilters": true,
+  "stores.productFilters": true,
+  "stores.searchTerm": true,
+  "tyo.state": true,
+  "user.userIdHash": true,
+  "vendors.algolia.gtmATC": true,
+  "vendors.algolia.isFromAlgolia": true,
+}
+`;

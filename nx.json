@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "dfs",
+  "npmScope": "bootstrap",
+  "defaultProject": "storefront",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -26,6 +27,15 @@
         "buildTargetName": "build",
         "devTargetName": "dev",
         "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "plugin": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
       }
     },
     {

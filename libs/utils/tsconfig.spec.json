@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "module": "commonjs",
+    "types": ["jest", "node", "@testing-library/jest-dom"]
+  },
+  "include": ["**/*.spec.ts", "**/*.spec.tsx", "**/*.spy.ts", "**/*.spy.tsx"],
+  "exclude": ["**/__stories__/**", "**/*.stories.*"]
+}

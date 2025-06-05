@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "files": [],
+  "include": ["../../typings.d.ts", "**/*", "../../apps/storefront/.next/types/**/*.ts"],
+  "references": [
+    {
+      "path": "tsconfig.spec.json"
+    },
+    {
+      "path": "tsconfig.stories.json"
+    },
+    {
+      "path": "tsconfig.lib.json"
+    }
+  ]
+}
