@@ -1,9 +1,13 @@
 'use client';
 
+import { useEffect } from 'react';
+
 const Client = () => {
   const data = null;
-  const { property_not_available } = data;
-  console.log(property_not_available);
+  useEffect(() => {
+    const { property_not_available } = data;
+    console.log(property_not_available);
+  });
 
   return (
     <div>

@@ -6,7 +6,6 @@ import { PropsWithChildren } from 'react';
 
 const pageNames = [
   'no-error',
-  'server-no-boundary',
   'server-with-boundary',
   'server-client-boundary',
   'server-both-boundary',
@@ -15,14 +14,11 @@ const pageNames = [
   'page-not-found',
 ] as const;
 
-type PageName = (typeof pageNames)[number];
+type PageName = typeof pageNames[number];
 
 const pagesDetails: Partial<Record<PageName, { expects?: string }>> = {
   'no-error': {
     expects: 'renders normally',
-  },
-  'server-no-boundary': {
-    expects: 'error.tsx',
   },
   'server-with-boundary': {
     expects: 'error.tsx',

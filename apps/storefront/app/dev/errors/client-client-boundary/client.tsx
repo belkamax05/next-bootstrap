@@ -1,9 +1,13 @@
 'use client';
 
 import ErrorBoundary from '@/ui/app/ErrorBoundary';
+import { useEffect } from 'react';
 
 const Component = () => {
-  throw new Error('ErrorMsg');
+  useEffect(() => {
+    throw new Error('ErrorMsg');
+  });
+  return null;
 };
 
 export default () => {
