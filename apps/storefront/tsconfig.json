@@ -1,0 +1,63 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": false
+  },
+  "include": [
+    "**/*",
+    "../../AmplianceVisualisation/shared",
+    "../../config",
+    "../../libs/component-library",
+    "../../libs/constants",
+    "../../libs/storybook",
+    "../../libs/ui",
+    "../../libs/utils",
+    "../../typings.d.ts",
+    "next-env.d.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "jest.*",
+    "**/test-utils/**",
+    "**/__mocks__/**",
+    "**/__stories__/**",
+    "**/*.spec.*",
+    "**/*.spy.*",
+    "**/*.stories.*",
+    "../../libs/storybook/**",
+    "../../libs/constants/**/mocks/**",
+    "../../libs/**/test-utils/*",
+    "../../libs/**/__mocks__/**",
+    "../../libs/**/__stories__/**",
+    "../../libs/**/*.spec.*",
+    "../../libs/**/*.spy.*",
+    "../../libs/**/*.stories.*"
+  ],
+  "references": [
+    {
+      "path": "tsconfig.spec.json"
+    },
+    {
+      "path": "tsconfig.stories.json"
+    },
+    {
+      "path": "tsconfig.app.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "node",
+      "@nx/react/typings/cssmodule.d.ts",
+      "@nx/react/typings/image.d.ts",
+      "next",
+      "@nx/next/typings/image.d.ts"
+    ]
+  },
+  "exclude": [
+    "**/test-utils/**",
+    "**/__mocks__/**",
+    "**/__stories__/**",
+    "**/*.spec.*",
+    "**/*.spy.*",
+    "**/*.stories.*",
+    "../**/*.spec.*",
+    "../**/*.spy.*",
+    "../**/*.stories.*"
+  ]
+}

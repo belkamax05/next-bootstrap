@@ -1,0 +1,23 @@
+{
+  "threshold": 99,
+  "reporters": ["html"],
+  "ignore": [
+    "**/__snapshots__",
+    "/node_modules/**",
+    "/logs",
+    "**/*.spec.*",
+    "i18n",
+    "report.*.json",
+    "/.next",
+    "**/__mocks__",
+    "**/__pagetests__",
+    "**/__test__",
+    "**/__tests__",
+    "**/pubic/**",
+    "**/*.story*",
+    "**/*stories*",
+    "**/mocks",
+    "**/__mock__"
+  ],
+  "absolute": true
+}

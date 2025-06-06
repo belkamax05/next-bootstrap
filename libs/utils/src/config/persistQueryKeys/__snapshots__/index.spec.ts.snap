@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`persistQueryKeys should match snapshot 1`] = `
+Array [
+  Array [
+    "app",
+    "auth",
+  ],
+  Array [
+    "basket",
+    "state",
+  ],
+  Array [
+    "tyo",
+    "state",
+  ],
+  Array [
+    "productConfig",
+    "state",
+  ],
+  Array [
+    "recentlyViewed",
+    "items",
+  ],
+  Array [
+    "pages",
+    "pdp",
+    "last",
+  ],
+  Array [
+    "pages",
+    "pdp",
+    "storeLocator",
+    "searchTerm",
+  ],
+  Array [
+    "pages",
+    "plp",
+    "last",
+  ],
+  Array [
+    "stores",
+    "searchTerm",
+  ],
+  Array [
+    "stores",
+    "brandFilters",
+  ],
+  Array [
+    "stores",
+    "productFilters",
+  ],
+  Array [
+    "state",
+    "loginOrigin",
+  ],
+  Array [
+    "user",
+    "userIdHash",
+  ],
+  Array [
+    "vendors",
+    "algolia",
+    "gtmATC",
+  ],
+  Array [
+    "vendors",
+    "algolia",
+    "isFromAlgolia",
+  ],
+]
+`;

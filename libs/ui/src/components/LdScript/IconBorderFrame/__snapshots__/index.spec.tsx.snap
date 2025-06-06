@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconBorderFrame should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiBox-root css-1rcu5ey-IconBorderFrame-root"
+    >
+      <div
+        data-testid="colour-wheel-icon"
+      >
+        PdpAttributeColorWheel
+      </div>
+      <img
+        alt="imageAlt"
+        class="css-xkwt5p-IconImage-image"
+        height="40"
+        placeholder="blur"
+        src="imageSrc"
+        title="imageName"
+        width="40"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`IconBorderFrame should show svg if svg is present 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiBox-root css-1rcu5ey-IconBorderFrame-root"
+    >
+      SVG Content
+    </div>
+  </div>
+</body>
+`;

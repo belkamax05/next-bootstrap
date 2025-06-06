@@ -1,0 +1,81 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# NX
+
+.next
+.nx/cache
+.nx/workspace-data
+nx.instructions.md
+
+# Yarn
+
+.yarn/install-state.gz
+*.tsbuildinfo
+
+#? Next
+.next
+
+#? Jest
+**/junit/*.xml
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/apps/**/public/static/locales/*
+/locales
+
+# dependencies
+/node_modules
+package-lock.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typing
+/pa11y-reports
+pa11y-ci-results.json
+debug.log
+test-report.xml
+/junit
+/jscpd
+# migrations.json
+siteConfig.*.config.js
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# PlantUML
+/out
+
+# Service Worker
+sw.js
+sw.js.map
+workbox*.js
+workbox*.map
+
+/logs
+*.log
+.cursor/rules/nx-rules.mdc

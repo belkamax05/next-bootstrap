@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queryKeys should match snapshot 1`] = `
+Object {
+  "api": Object {
+    "endpoint": [Function],
+    "espotApi": Array [
+      "api",
+      "espotApi",
+    ],
+    "exponeaRecommendations": Array [
+      "api",
+      "exponeaRecommendations",
+    ],
+    "olapicApi": Array [
+      "api",
+      "olapicApi",
+    ],
+  },
+  "app": Object {
+    "account": Array [
+      "app",
+      "account",
+    ],
+    "alert": Array [
+      "app",
+      "alert",
+    ],
+    "algolia": Array [
+      "app",
+      "algolia",
+    ],
+    "auth": Array [
+      "app",
+      "auth",
+    ],
+    "config": Array [
+      "app",
+      "config",
+    ],
+    "consent": Array [
+      "app",
+      "consent",
+    ],
+    "creditChecker": Object {
+      "exitModalEnabled": Array [
+        "app",
+        "creditChecker",
+        "exitModalEnabled",
+      ],
+      "exitModalOpen": Array [
+        "app",
+        "creditChecker",
+        "exitModalOpen",
+      ],
+      "modalOpen": Array [
+        "app",
+        "creditChecker",
+        "modalOpen",
+      ],
+      "modalState": Array [
+        "app",
+        "creditChecker",
+        "modalState",
+      ],
+      "statusModalOpen": Array [
+        "app",
+        "creditChecker",
+        "statusModalOpen",
+      ],
+      "statusModalState": Array [
+        "app",
+        "creditChecker",
+        "statusModalState",
+      ],
+    },
+    "header": Object {
+      "menuBreakpoint": Array [
+        "app",
+        "header",
+        "menuBreakPoint",
+      ],
+      "menuOpen": Array [
+        "app",
+        "header",
+        "menuOpen",
+      ],
+    },
+    "hummEnabled": Array [
+      "app",
+      "hummEnabled",
+    ],
+    "langId": Array [
+      "app",
+      "langId",
+    ],
+    "requestSettings": Array [
+      "app",
+      "requestSettings",
+    ],
+    "routerChange": Array [
+      "app",
+      "routerChange",
+    ],
+    "searchMenu": Array [
+      "app",
+      "searchMenu",
+    ],
+    "searchTerm": Array [
+      "app",
+      "searchTerm",
+    ],
+    "sofaConfigurator": Object {
+      "modal": Array [
+        "app",
+        "sofaConfigurator",
+        "modal",
+      ],
+    },
+    "storeId": Array [
+      "app",
+      "storeId",
+    ],
+    "xcomreg_item": Array [
+      "app",
+      "xcomreg-item",
+    ],
+  },
+  "basket": Object {
+    "multipleSkus": Array [
+      "basket",
+      "multipleSkus",
+    ],
+    "state": Array [
+      "basket",
+      "state",
+    ],
+  },
+  "callMeBack": Object {
+    "state": Array [
+      "callMeBack",
+      "state",
+    ],
+  },
+  "checkout": Object {
+    "state": Array [
+      "checkout",
+      "state",
+    ],
+  },
+  "dev": Object {
+    "espotDebugVisibility": Array [
+      "dev",
+      "espotDebugVisibility",
+    ],
+  },
+  "megaNav": Object {
+    "clickEvent": Array [
+      "megaNav",
+      "clickEvent",
+    ],
+  },
+  "navigator": Object {
+    "geolocation": Object {
+      "currentPosition": Array [
+        "navigator",
+        "geolocation",
+        "currentPosition",
+      ],
+    },
+  },
+  "pages": Object {
+    "contentGallery": Object {
+      "olapicLoadMore": Array [
+        "pages",
+        "contentGallery",
+        "olapicLoadMore",
+      ],
+    },
+    "pdp": Object {
+      "algoliaSearch": Array [
+        "pages",
+        "pdp",
+        "algoliaSearch",
+      ],
+      "attributes": Object {
+        "modal": Array [
+          "pages",
+          "pdp",
+          "attributes",
+          "modal",
+        ],
+      },
+      "basketV1OrderItemId": Array [
+        "pages",
+        "pdp",
+        "basketV1OrderItemId",
+      ],
+      "covers": Array [
+        "pages",
+        "pdp",
+        "covers",
+      ],
+      "last": Array [
+        "pages",
+        "pdp",
+        "last",
+      ],
+      "mpir": Object {
+        "modal": Array [
+          "pages",
+          "pdp",
+          "mpir",
+          "modal",
+        ],
+      },
+      "storeLocator": Object {
+        "modal": Array [
+          "pages",
+          "pdp",
+          "storeLocator",
+          "modal",
+        ],
+        "searchTerm": Array [
+          "pages",
+          "pdp",
+          "storeLocator",
+          "searchTerm",
+        ],
+      },
+    },
+    "plp": Object {
+      "algoliaData": Array [
+        "pages",
+        "plp",
+        "algoliaData",
+      ],
+      "browserNav": Array [
+        "pages",
+        "plp",
+        "browserNav",
+      ],
+      "catGroupId": Array [
+        "pages",
+        "plp",
+        "catGroupId",
+      ],
+      "last": Array [
+        "pages",
+        "plp",
+        "last",
+      ],
+      "shortlistTooltip": Array [
+        "pages",
+        "plp",
+        "shortlistTooltip",
+      ],
+      "sofaSizerImage": Array [
+        "pages",
+        "plp",
+        "sofaSizerImage",
+      ],
+    },
+  },
+  "product": Object {
+    "productDetail": Object {
+      "state": Array [
+        "product",
+        "productDetail",
+        "state",
+      ],
+    },
+  },
+  "productConfig": Object {
+    "state": Array [
+      "productConfig",
+      "state",
+    ],
+  },
+  "recentlyViewed": Object {
+    "items": Array [
+      "recentlyViewed",
+      "items",
+    ],
+    "open": Array [
+      "recentlyViewed",
+      "open",
+    ],
+  },
+  "shortlist": Object {
+    "state": Array [
+      "shortlist",
+      "state",
+    ],
+  },
+  "state": Object {
+    "callMeBack": Object {
+      "modal": Array [
+        "state",
+        "callMeBack",
+        "modal",
+      ],
+    },
+    "loginOrigin": Array [
+      "state",
+      "loginOrigin",
+    ],
+    "shortlist": Object {
+      "open": Array [
+        "state",
+        "shortlist",
+        "open",
+      ],
+    },
+  },
+  "storages": Object {
+    "cookie": [Function],
+    "masterSegment": Array [
+      "storages",
+      "masterSegment",
+    ],
+  },
+  "stores": Object {
+    "brandFilters": Array [
+      "stores",
+      "brandFilters",
+    ],
+    "filterDrawer": Array [
+      "stores",
+      "filterDrawer",
+    ],
+    "productFilters": Array [
+      "stores",
+      "productFilters",
+    ],
+    "searchTerm": Array [
+      "stores",
+      "searchTerm",
+    ],
+  },
+  "tyo": Object {
+    "state": Array [
+      "tyo",
+      "state",
+    ],
+  },
+  "user": Object {
+    "customerIp": Array [
+      "user",
+      "customerIp",
+    ],
+    "userIdHash": Array [
+      "user",
+      "userIdHash",
+    ],
+  },
+  "vendors": Object {
+    "algolia": Object {
+      "gtmATC": Array [
+        "vendors",
+        "algolia",
+        "gtmATC",
+      ],
+      "isFromAlgolia": Array [
+        "vendors",
+        "algolia",
+        "isFromAlgolia",
+      ],
+    },
+    "exponea": Object {
+      "initialized": Array [
+        "vendors",
+        "exponea",
+        "initialized",
+      ],
+    },
+    "oneTrust": Object {
+      "initialized": Array [
+        "vendors",
+        "oneTrust",
+        "initialized",
+      ],
+    },
+    "visearch": Object {
+      "instance": [Function],
+      "result": Array [
+        "vendors",
+        "visearch",
+        "result",
+      ],
+    },
+  },
+}
+`;
