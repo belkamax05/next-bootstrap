@@ -1,8 +1,10 @@
+import { QueryKey } from '@tanstack/query-core';
+
 /**
  * list of query keys to be saved into localStorage and restored on each session
  */
-const persistQueryKeys = [
+const persistQueryKeys: QueryKey[] = [
   // queryKeys.app.value,
-] as const;
+];
 
 export default persistQueryKeys;

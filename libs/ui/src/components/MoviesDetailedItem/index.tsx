@@ -14,7 +14,6 @@ const MoviesDetailedItem = ({ item }: { item: MoviesDetailedItemData }) => {
     release_date,
     director,
     producer,
-    ...restItem
   } = item;
   const longTitle = `${title} (${original_title})`;
   return (
