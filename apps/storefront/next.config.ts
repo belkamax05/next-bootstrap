@@ -26,17 +26,18 @@ const getDistDir = () => {
   //? In "production" works a bit tricky:
   //? Production "build" step will create ".next" in "dist" folder, so pipeline can copy it from "/fe/dist/"
   //? Production "start" step will run from "dist" folder, so it will look for ".next" in the same folder
-  if (NODE_ENV === 'development') return undefined;
-  const currentDirNextLocation = path.join(__dirname, '.next');
-  const nextExistsWithinCurrentDir = fs.existsSync(currentDirNextLocation);
-  const appsDir = findClosestDir(__dirname, 'apps');
-  const rootDir = path.join(appsDir, '..');
-  const distDirAbsolute = nextExistsWithinCurrentDir
-    ? currentDirNextLocation
-    : path.join(rootDir, 'dist/apps/storefront/.next');
+  return undefined; //? Below is environment specific logic, but it is not needed for now
+  // if (NODE_ENV === 'development') return undefined;
+  // const currentDirNextLocation = path.join(__dirname, '.next');
+  // const nextExistsWithinCurrentDir = fs.existsSync(currentDirNextLocation);
+  // const appsDir = findClosestDir(__dirname, 'apps');
+  // const rootDir = path.join(appsDir, '..');
+  // const distDirAbsolute = nextExistsWithinCurrentDir
+  //   ? currentDirNextLocation
+  //   : path.join(rootDir, 'dist/apps/storefront/.next');
 
-  const distDirRelative = path.relative(__dirname, distDirAbsolute);
-  return distDirRelative;
+  // const distDirRelative = path.relative(__dirname, distDirAbsolute);
+  // return distDirRelative;
 };
 
 const distDir = getDistDir();
